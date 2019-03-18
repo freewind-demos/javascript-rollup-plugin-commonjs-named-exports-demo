@@ -1,6 +1,10 @@
+import commonjs from 'rollup-plugin-commonjs';
+
 export default {
-    entry: 'main.js',
-    dest: 'bundle.js',
-    format: 'cjs',
-    external: ['lodash']
+  input: 'main.js',
+  output: {
+    file: 'bundle.js',
+    format: 'cjs'
+  },
+  plugins: [commonjs()]
 }

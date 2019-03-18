@@ -1,11 +1,9 @@
 {
   "scripts": {
-    "demo": "rollup -c"
-  },
-  "dependencies": {
-    "lodash": "4.17.11"
+    "demo": "rollup -c && node bundle.js"
   },
   "devDependencies": {
-    "rollup": "1.6.0"
+    "rollup": "1.6.0",
+    "rollup-plugin-commonjs": "9.2.1"
   }
 }

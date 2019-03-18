@@ -1,7 +1,7 @@
 function toUpper(str) {
-    return str.toUpperCase();
+  return str.toUpperCase();
 }
 
 module.exports = {
-    toUpper
+  toUpper
 }

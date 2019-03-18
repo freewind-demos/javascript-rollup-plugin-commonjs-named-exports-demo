@@ -1,3 +1,3 @@
-import hello from './hello'
+import {toUpper} from './toUpper'
 
-hello('rollup')
+console.log('Hello, ' + toUpper('rollup') + '!');
