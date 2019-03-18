@@ -2,6 +2,8 @@ function toUpper(str) {
   return str.toUpperCase();
 }
 
-module.exports = {
+const myExports = {
   toUpper
 }
+
+module.exports = myExports;

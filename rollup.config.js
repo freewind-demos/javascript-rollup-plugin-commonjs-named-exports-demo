@@ -6,5 +6,11 @@ export default {
     file: 'bundle.js',
     format: 'cjs'
   },
-  plugins: [commonjs()]
+  plugins: [
+    commonjs({
+      namedExports: {
+        './toUpper': ['toUpper']
+      }
+    })
+  ]
 }
